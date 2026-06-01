@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navjeet Pattali - Developer</title>
+  <meta name="description"
+    content="Portfolio of Navjeet Pattali, a software developer building clean, performant web applications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <!-- <a href="#" class="logo">Navjeet Pattali<span class="caret">_</span></a> -->
+      <!-- <a href="#" class="logo">Navjeet Pattali</a> -->
+      <!-- <a href="#" class="logo tenor-gif-embed" data-postid="4240715" data-share-method="host"
+        data-aspect-ratio="1.77778" data-width="10%"><a
+          href="https://tenor.com/view/computer-chair-spinning-happy-carefree-gif-4240715">
+        </a> -->
+
+      <a href="#" class="gif-container" aria-label="Home">
+        <img src="assests/computer-chair-spinning.gif" alt="">
+      </a>
+      <!-- <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Status ticker bar -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>● offline</span><span>$ whoami → navjeet</span><span>coffee.exe
+        running</span><span><b>Deloitte</b></span><span>i make lo-fi beats on souncloud</span><span>○ available for
+        hire</span><span>Senior Software Engineer</span><span>Music Producer</span><span>Backend Engineer</span>
+      <span> -- -- -- </span>
+      <span>● offline</span><span>$ whoami → navjeet</span><span>coffee.exe
+        running</span><span><b>Deloitte</b></span><span>i make lo-fi beats on souncloud</span><span>○ available for
+        hire</span><span>Senior Software Engineer</span><span></span><span>Backend Engineer</span>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero container">
+      <p class="eyebrow">Developer · Designer · Builder</p>
+      <h1>Hi, I'm Navjeet Pattali.<br />I build thoughtful software.</h1>
+      <p class="lead">A full-stack developer focused on creating fast, accessible, and well-crafted digital products.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+
+      <!-- ASCII art signature -->
+      <!-- <pre class="ascii" aria-hidden="true">
+   ___                   ___          
+  |_  |                 |   \  ___   ___ 
+   _| |  __ _  _ _  ___ | |) |/ _ \ / -_)
+  |___| /_/\\_\\| ' \\/ -_)|___/ \\___/ \\___|
+              |_||_\\___|                </pre> -->
+    </section>
+
+    <!-- Animated ASCII art scene -->
+    <section class="ascii-section container">
+      <div class="ascii-frame">
+        <pre class="ascii-art" id="asciiArt" aria-label="ASCII art of a developer's desk"></pre>
+        <p class="ascii-caption mono" id="asciiCaption">// brewing ideas since 2018</p>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-grid">
+        <div class="section-label">// about</div>
+        <div class="section-content">
+          <p>I build backend systems in .NET and C#, the kind that process financial data at scale, stay up during peak
+            load, and don't need babysitting in production. Five years in, currently at Deloitte.</p>
+          <p>I take full ownership of what I ship, from the database schema to the API to the incident at 2am. Looking
+            for a product team where that matters.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section container">
+      <div class="section-grid">
+        <div class="section-label">// work</div>
+        <div class="section-content">
+          <ul class="project-list">
+            <li class="project">
+              <div class="project-meta"><span>2024</span> · <span class="tag">.net</span> <span class="tag">wpf</span>
+              </div>
+              <h3>ReDo — PC Automation Tool</h3>
+              <p>A desktop app to record routine tasks and replay them with a click. Supports importing and exporting
+                automation projects using low-level input hooks.</p>
+              <a href="https://github.com/navjeetpattali" target="_blank" rel="noopener noreferrer"
+                class="project-link">View on GitHub →</a>
+            </li>
+            <li class="project">
+              <div class="project-meta"><span>2023</span> · <span class="tag">angular</span> <span
+                  class="tag">typescript</span></div>
+              <h3>Re360 — Virtual Tour Web App</h3>
+              <p>Create and explore immersive 3D virtual tours with hotspots, labels, infospots, and floorplan
+                navigation built on Marzipano.</p>
+              <a href="https://github.com/navjeetpattali" target="_blank" rel="noopener noreferrer"
+                class="project-link">View on GitHub →</a>
+            </li>
+            <li class="project">
+              <div class="project-meta"><span>2022</span> · <span class="tag">python</span> <span
+                  class="tag">flask</span></div>
+              <h3>ML Algorithm Selector — Web App</h3>
+              <p>Automates machine learning algorithm selection by benchmarking and ranking model performance across
+                three classes on user-uploaded datasets.</p>
+              <a href="https://github.com/navjeetpattali" target="_blank" rel="noopener noreferrer"
+                class="project-link">View on GitHub →</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-grid">
+        <div class="section-label">// skills</div>
+        <div class="section-content">
+          <div class="skills-grid">
+            <div>
+              <h4>Languages</h4>
+              <p>C#, Java, Python, Go, SQL</p>
+            </div>
+            <div>
+              <h4>Frontend</h4>
+              <p>Angular, HTML, CSS</p>
+            </div>
+            <div>
+              <h4>Backend</h4>
+              <p>.NET, Spring, Node, PostgreSQL, SQL Server, Redis</p>
+            </div>
+            <div>
+              <h4>Tools</h4>
+              <p>Git, Docker, AWS, Figma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <div class="section-grid">
+        <div class="section-label">// contact</div>
+        <div class="section-content">
+          <h2>Let's work together.</h2>
+          <p>Open to freelance projects and full-time roles. The fastest way to reach me is by email.</p>
+          <a href="mailto:navjeetpattali@gmail.com" class="email-link">navjeetpattali@gmail.com</a>
+          <ul class="socials">
+            <li><a href="https://github.com/itProjectGroup" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/navjeet-pattali-53923b1ba/" target="_blank"
+                rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://soundcloud.com/nine-60932332" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Navjeet Pattali · Senior Software Engineer · Deloitte
+      <!-- <p class="mono hint">psst — try the ↑↑↓↓←→←→BA</p> -->
+  </footer>
+
+  <!-- Konami easter egg overlay -->
+  <!-- <div class="konami" aria-hidden="true">
+    <pre>
+    ╔══════════════════════════╗
+    ║   ACHIEVEMENT UNLOCKED   ║
+    ║   ───────────────────    ║
+    ║   you found the secret   ║
+    ║      ▲ ▲ ▼ ▼ ◀ ▶ ◀ ▶     ║
+    ║          B   A           ║
+    ╚══════════════════════════╝
+    </pre>
+  </div> -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
